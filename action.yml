@@ -1,0 +1,14 @@
+name: 'my first container action'
+description: 'OPS DevOps Training'
+author: 'Suparuek P'
+inputs:
+  myInput:
+    description: 'Greeting to use'
+    required: true
+    default: 'Awesome DevOps'
+outputs:
+  myOutput:
+    description: 'Total memory'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
